@@ -8,7 +8,7 @@ npm install agent-install
 
 ## code
 
-```
+```javascript
 var asset = require('assert'),
 		agent = require('agent-line'),
 		Device = agent.Device,
