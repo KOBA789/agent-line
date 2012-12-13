@@ -10,10 +10,10 @@ npm install agent-install
 
 ```javascript
 var asset = require('assert'),
-		agent = require('agent-line'),
-		Device = agent.Device,
-		OS = agent.OS,
-		Carrier = agent.Carrier;
+    agent = require('agent-line'),
+    Device = agent.Device,
+    OS = agent.OS,
+    Carrier = agent.Carrier;
 
 var iPhone = agent.lookup('Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A403 Safari/8536.25');
 
